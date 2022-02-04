@@ -1,9 +1,8 @@
-# News Hub
-News hub website frontend 
+# Pitches Frontend
+Pitches website frontend 
 
-## Design
-Here is the Design
+## Designs
+Here are the Design
 ![Design](./images/design.png)
-
-## Screenshot
-![Screenshot](./images/screenshot.png)
+![Design](./images/login.png)
+![Design](./images/signup.png)
