@@ -1,12 +1,23 @@
 /* Top News Section */
 
-#top-news {
+#latest-pitches{
     background: $background-color;
-    .news-card {
-        img {
-            border-radius: 10px 0 0 10px;
-            @include media-breakpoint-down(sm) {
-                border-radius: 10px 10px 0 0;
+    .pitch-card {
+        background: $white;
+        border-radius: 5px;
+        .category,
+        .date{
+            font-size: $spacer * 0.8;
+        }
+        .details{
+            .title{
+                color: $nav-item-color;
+            }
+        }
+        .meta{
+            .user-pic{
+                height: 30px;
+                width: 30px;
             }
         }
         .links {
@@ -17,4 +28,14 @@
             }
         }
     }
+}
+
+.text-sm{
+    font-size: $spacer * 0.8;
+}
+.text-xs{
+    font-size: $spacer * 0.7;
+}
+.text-xxs{
+    font-size: $spacer * 0.6;
 }
