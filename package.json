@@ -1,0 +1,20 @@
+{
+    "name": "newshub-frontend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "css": "node-sass --include-path scss scss/style.scss css/style.css --output-style compressed",
+        "watch": "nodemon -e scss -x npm run css"
+    },
+    "keywords": [],
+    "author": "james",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^6.0.1",
+        "nodemon": "^2.0.14"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.3"
+    }
+}

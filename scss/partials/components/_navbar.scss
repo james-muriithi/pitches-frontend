@@ -1,0 +1,31 @@
+/* Navbar */
+
+.navbar {
+    .navbar-collapse {
+        position: relative;
+        z-index: 10;
+        background: $background-color;
+    }
+    .nav-item {
+        input {
+            padding-right: 35px;
+        }
+        .search {
+            .search-icon {
+                right: 10px;
+                top: 20%;
+            }
+        }
+        .nav-link {
+            @include transition;
+            color: $secondary !important;
+            font-weight: 500;
+            font-size: $spacer * 1.1;
+            &:hover,
+            &.active {
+                color: $primary !important;
+                font-weight: bold;
+            }
+        }
+    }
+}

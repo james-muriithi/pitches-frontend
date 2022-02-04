@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+$background-color: #f1f1f1;
+$font-family: Nunito,
+"serif";
+$black: #000;
+$white: #fff;
+$nav-item-color: #101730;
+$primary: #008c8c;
+$secondary: $nav-item-color;
+$spacer: 1rem;
+// bootstrap variables and function
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";

@@ -1,0 +1,45 @@
+/* Global Styles */
+
+* {
+    font-family: $font-family;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body,
+html {
+    font-family: $font-family;
+    background: $background-color;
+    height: 100%;
+}
+
+.navbar-toggler,
+.btn {
+    &:active,
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+input {
+    &:active,
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+@mixin transition {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
