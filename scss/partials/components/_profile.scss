@@ -1,0 +1,14 @@
+.profile-user-pic{
+    width: $spacer * 9.5;
+    height: $spacer * 9.5;
+    span.user-icon{
+        font-size: $spacer * 5;
+    }
+    label{
+        line-height: $spacer * 2;
+        cursor: pointer;
+        span{
+            font-size: $spacer * 2.3;
+        }
+    }
+}
