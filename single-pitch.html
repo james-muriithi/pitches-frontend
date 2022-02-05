@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pitches - Home</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100 px-1 px-lg-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="./images/logo.png" alt="Logo" class="img-fluid">
+            </a>
+            <div>
+
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse bg-lg-transparent" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mt-4 mt-lg-0">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" aria-current="page" href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">
+                            Business
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">
+                            Pickup Lines
+                        </a>
+                    </li>
+                    <li class="nav-item px-2 mb-3 mb-lg-0">
+                        <a href="login.html" class="btn btn-outline-primary px-4">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- section latest pitches -->
+    <section id="latest-pitches" class="py-5 px-1 px-lg-3">
+        <div class="container-fluid mt-5">
+            <div class="row mb-4">
+                <div class="col-md-8">
+                    <div class="card mb-3">
+                        <div class="card-body p-4">
+                            <div class="meta">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://avatars.githubusercontent.com/u/26818458?s=40&v=4"
+                                            alt="username" class="user-pic rounded-circle">
+                                        <div class="name text-sm ps-2">
+                                            <div class="fw-bold">John Doe</div>
+                                            <span class="text-muted text-xs">22 Jan, 2022</span>
+                                        </div>
+                                    </div>
+                                    <a href="#"
+                                        class="read-more text-sm ms-auto badge bg-primary text-white">Business</a>
+                                </div>
+                            </div>
+
+                            <div class="pitch-details pt-4">
+                                <h1 class="fw-bold fs-4">Lorem ipsum</h1>
+                                <p class="pt-4 text-muted">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum animi omnis libero
+                                    dicta laborum fuga, facilis rerum consequuntur corporis dolorem illum, tempore
+                                    delectus mollitia quo magni quae distinctio officiis fugit.
+                                </p>
+
+                                <div class="voting d-flex align-items-center justify-content-between mt-5">
+                                    <div class="">
+                                        <button class="btn d-flex align-items-center">
+                                            <span class="material-icons fs-5">message</span>
+                                            <span class="text-xxs ps-1">13</span>
+                                        </button>
+                                    </div>
+                                    <div class="d-flex">
+                                        <button class="btn d-flex align-items-center">
+                                            <span class="material-icons fs-4 text-primary">expand_less</span>
+                                            <span class="text-xxs">13</span>
+                                        </button>
+                                        <button class="btn d-flex align-items-center">
+                                            <span class="material-icons fs-4">expand_more</span>
+                                            <span class="text-xxs">0</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mt-md-0 mt-4">
+                    <div class="card px-3 py-4">
+                        <h2 class="fw-bold fs-4 text-center text-secondary">Leave a comment</h2>
+                        <form action="" method="POST">
+                            <div class="form-group">
+                                <label for="" class="form-label">Comment</label>
+                                <textarea name="comment" required class="form-control" rows="3"></textarea>
+                            </div>
+                            <div class="text-center pt-4">
+                                <button class="btn btn-primary px-4">
+                                    Post
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 mb-3">
+                    <h3 class="fw-bold my-3 fs-4">Comments</h3>
+                    <div class="card pb-2 bg-transparent border-primary">
+                        <div class="card-body">
+                            <div class="meta">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://avatars.githubusercontent.com/u/26818458?s=40&v=4"
+                                            alt="username" class="user-pic rounded-circle">
+                                        <div class="name text-sm ps-2">
+                                            <div class="fw-bold">John Doe</div>
+                                        </div>
+                                    </div>
+                                    <span class="read-more text-sm ms-auto">22 Jan, 2022</span>
+                                </div>
+                            </div>
+
+                            <div class="comment pt-3">
+                                <span class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Provident, natus iste, excepturi magnam quam voluptate perspiciatis itaque
+                                    at placeat quae aliquid error facilis totam, dolores labore modi sequi
+                                    similique accusantium.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end latest pitches -->
+    <footer class="pt-5 pb-4 bg-secondary px-3">
+        <div class="mx-0 row align-items-center">
+            <div class="col-sm-4 order-1">
+                <a class="navbar-brand" href="/">
+                    <img src="./images/logo-white.png" alt="Logo" class="img-fluid">
+                </a>
+            </div>
+            <div class="text-white order-3 order-md-2 mt-md-0 mt-5 text-center col-md-4">
+                © 2022
+            </div>
+            <div class="col-sm-8 col-md-4 order-2 order-md-3 mt-md-0 mt-5">
+                <a href="/" class="pe-2 text-white">Home</a>
+                <a href="#" class="px-2 text-white">Business</a>
+                <a href="#" class="px-2 text-white">Products</a>
+                <a href="#" class="px-2 text-white">Pickup Lines</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
